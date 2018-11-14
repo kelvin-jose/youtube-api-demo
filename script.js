@@ -2,7 +2,7 @@
 $(document).ready(function () {
 
 	var URL = 'https://www.googleapis.com/youtube/v3/search';  // Youtube API
-	var key = "AIzaSyAmix1-JX0kqetW82bJZvMdAM1ZNGjj2Kg";  // API Key
+	var key = "YOUR API KEY HERE";  // API Key
 
 	var options = {}
 	var toBeSorted = []
