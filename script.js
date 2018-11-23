@@ -54,7 +54,7 @@ $(document).ready(function () {
 		clearScreen();
 		document.getElementById('menu').style.display = 'block';
 		var count = 0;
-		$.each(data, function (i, item) {
+		$.each(data, function (item) {
 			var title = item.title;
 			var desc = item.description.substring(0, 100);
 			var publishedDate = item.publishedAt;
